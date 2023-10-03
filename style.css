@@ -41,6 +41,10 @@
     margin-left: 10px;
 
 }
+.nav-second
+{
+    
+}
 /**box3**/
 .nav-search
 {
@@ -52,6 +56,10 @@
     border-radius: 6px;
     background-color: rgba(255, 255, 0, 0.386);
     border-radius: 3px;
+}
+.nav-search:hover
+{
+    border: 2px solid grey;
 }
 .search-select
 {
@@ -98,4 +106,64 @@ span{
 .contact
 {
     margin-left: 20px;
+}
+/**panel**/
+.panel
+{
+    height: 40px;
+    background-color: rgba(0, 157, 255, 0.468);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.panel-ops p
+{
+    display: inline;
+    margin-left: 10px;
+}
+.panel-ops
+{
+    width: 70%;
+    
+    
+}
+.panel-deals
+{
+    
+    font-weight: 700;
+}
+
+
+.hero-section
+{
+    background-image:url("curious.png");
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+}
+.hero-message
+{
+    background-color: rgba(255, 235, 205, 0.858);
+    color: black;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    margin-bottom: 90px;
+}
+.box
+{
+    height: 200px;
+    border: 2px solid rgb(255, 238, 0);
+    width: 33%;
+
+}
+.shop-section
+{
+    display: flex;
+    justify-content: space-evenly;
+    background-color:  rgba(255, 235, 205, 0.858);
 }
